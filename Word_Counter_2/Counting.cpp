@@ -6,7 +6,7 @@ int Word_Counteringer::Counting(std::string arg1) {
   file_stream.open(arg1);
 
   if (!file_stream.is_open()) {
-    cout << "Íå óäàëîñü îòêðûòü ôàéë. Ïðîâåðüòå ïðàâèëüíîñòü ââîäà." << endl;
+    cout << "Сannot open file. Try another path." << endl;
     return 1;
   }
 
