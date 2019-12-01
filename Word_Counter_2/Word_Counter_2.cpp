@@ -7,7 +7,7 @@ string path;  //"C:\\rutext.txt"
 int main() {
   setlocale(LC_CTYPE, "rus");
 
-  cout << "Введите полный путь до файла, к примеру C:\\rutext.txt" << endl;
+  cout << "Input the file source like C:\rutext.txt" << endl;
   cin >> path;
 
   Word_Counteringer::Counting(path);
