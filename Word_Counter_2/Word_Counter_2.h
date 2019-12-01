@@ -1,4 +1,4 @@
-﻿
+
 #pragma once
 
 #include <iostream>
@@ -10,9 +10,7 @@
 #include <algorithm>
 #include <string>
 
-
 class Word_Counteringer {
-public:
-	static int Counting(std::string arg1);
+ public:
+  static int Counting(std::string arg1);
 };
-
